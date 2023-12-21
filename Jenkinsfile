@@ -24,6 +24,6 @@ pipeline {
         }
         stage('acceptation test'){
         	steps {
-        		sh './gradlew testAcceptance.java
+        		sh './gradlew testAcceptance.java'
     }
 }
